@@ -1,0 +1,153 @@
+header{
+    background-color: rgb(255, 249, 242);
+    /* border-bottom: 1px solid rgb(248, 244, 236); */
+}
+.logo{
+    width: 300px;
+    height: auto;
+}
+.shop-menu{
+    text-align: right;
+    margin-left: auto;
+}
+
+.shop-menu a{
+   margin-left: 3em;
+   text-align: right;
+}
+@media only screen and (max-width: 900px){
+    .shop-menu{
+        margin: auto;
+    }
+}
+#color-part{
+    color: coral;
+}
+.right-top{
+    background-image: url(/Logo-Icon/green.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    text-align: center;
+    padding: 0;
+}
+.right-top img{
+    width: 60%;
+    margin-left: 4%;
+    margin-right: auto;
+    margin-bottom:10% ;
+    margin-top: -15%;
+}
+
+.left-top button{
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 216, 141);
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+}
+.left-top h1{
+    font-size: 3.5rem;
+    padding-bottom: 10px;
+}
+
+.left-top h1, .subheading, .subscribe-area h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px!important;
+}
+.img-container{
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+}
+.img-container img{
+    height:200px;
+    width: auto;
+}
+.shop-card{
+    border-radius: 15px !important;
+    border: 1px solid rgb(255, 255, 255)!important;
+    box-shadow: 0px 3px 8px rgb(231, 231, 231);
+
+}
+
+.shop-card button{
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 216, 141);
+    padding: 0.7em;
+    border-radius: 8px;
+    border: none;
+}
+.card-price h3{
+    color: coral;
+} 
+.bottom-right {
+    padding: 10px;
+}
+.bottom-right img{
+    width: 100%;
+}
+
+.bottom-left{
+    padding: 50px;
+    padding: 10px;
+}
+
+.info-card{
+    height: auto;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 1px 3px 5px rgb(235, 235, 235);
+    margin: 10px;
+    padding: 5px 25px;
+}
+.info-card img{
+    width: 6em;
+    padding: 5px;
+    height: auto;
+    margin-right: 20px;
+}
+.subscribe-area{
+    padding: 50px;
+    width: 70vw;
+    background-color: rgb(245, 239, 233);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.subscribe-area input{
+    box-sizing: border-box;
+    line-height: 35px;
+    border-radius: 5px;
+    border: hidden;
+    width: 30%;
+    margin-right: 10px;
+    text-align: center;
+}
+.subscribe-area h2{
+    color: rgb(48, 48, 139);
+    padding: 25px;
+}
+.subscribe-area button{
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 216, 141);
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
